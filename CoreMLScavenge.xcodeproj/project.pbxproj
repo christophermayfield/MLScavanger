@@ -14,6 +14,8 @@
 		FA85029C1FC4C6AF007E05C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85029A1FC4C6AF007E05C3 /* LaunchScreen.storyboard */; };
 		FA8502A71FC4C6AF007E05C3 /* CoreMLScavengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8502A61FC4C6AF007E05C3 /* CoreMLScavengeTests.swift */; };
 		FA8502B21FC4C6AF007E05C3 /* CoreMLScavengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8502B11FC4C6AF007E05C3 /* CoreMLScavengeUITests.swift */; };
+		FA8502C01FC5542E007E05C3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA8502BF1FC5542E007E05C3 /* Inceptionv3.mlmodel */; };
+		FA8502C21FC558FD007E05C3 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8502C11FC558FD007E05C3 /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA8502AD1FC4C6AF007E05C3 /* CoreMLScavengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLScavengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8502B11FC4C6AF007E05C3 /* CoreMLScavengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLScavengeUITests.swift; sourceTree = "<group>"; };
 		FA8502B31FC4C6AF007E05C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8502BF1FC5542E007E05C3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		FA8502C11FC558FD007E05C3 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				FA8502911FC4C6AF007E05C3 /* AppDelegate.swift */,
 				FA8502931FC4C6AF007E05C3 /* ViewController.swift */,
+				FA8502C11FC558FD007E05C3 /* Objects.swift */,
+				FA8502BF1FC5542E007E05C3 /* Inceptionv3.mlmodel */,
 				FA8502951FC4C6AF007E05C3 /* Main.storyboard */,
 				FA8502981FC4C6AF007E05C3 /* Assets.xcassets */,
 				FA85029A1FC4C6AF007E05C3 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8502941FC4C6AF007E05C3 /* ViewController.swift in Sources */,
+				FA8502C01FC5542E007E05C3 /* Inceptionv3.mlmodel in Sources */,
+				FA8502C21FC558FD007E05C3 /* Objects.swift in Sources */,
 				FA8502921FC4C6AF007E05C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

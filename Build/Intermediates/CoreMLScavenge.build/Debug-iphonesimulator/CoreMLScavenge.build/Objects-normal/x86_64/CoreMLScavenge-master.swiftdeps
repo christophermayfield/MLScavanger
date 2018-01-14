@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "63d98613750f5ec71d62da91f6ad7168"
+build_time: [1511380275, 814145000]
+inputs:
+  "/Users/chrismayfield/Desktop/CoreMLScavenge/CoreMLScavenge/ViewController.swift": [1511335815, 0]
+  "/Users/chrismayfield/Desktop/CoreMLScavenge/CoreMLScavenge/Objects.swift": [1511334291, 0]
+  "/Users/chrismayfield/Desktop/CoreMLScavenge/CoreMLScavenge/AppDelegate.swift": [1511296815, 0]
+  "/Users/chrismayfield/Desktop/CoreMLScavenge/Build/Intermediates/CoreMLScavenge.build/Debug-iphonesimulator/CoreMLScavenge.build/DerivedSources/CoreMLGenerated/Inceptionv3/Inceptionv3.swift": [1511333038, 0]
